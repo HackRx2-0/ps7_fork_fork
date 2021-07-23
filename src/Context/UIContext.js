@@ -14,7 +14,7 @@ export const UIProvider = ({ children }) => {
   //   token: false,
   //   user: {},
   // };
-  const initialState = { image: {} };
+  const initialState = { image: {}, loading: false };
   const reducer = (state, action) => {
     switch (action.type) {
       case "SET_IMAGE":
