@@ -3,16 +3,22 @@ import LandingPage from "./Pages/LandingPage";
 import EditorPage from "./Pages/EditorPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Loading from "./UI/Loading";
+import DropZonePage from "./Pages/DropZonePage";
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <Switch>
-          <Route path="/editor">
+          <Route path='/editor'>
             <EditorPage />
           </Route>
-          <Route path="/">
+          <Route path='/Uploads'>
+            <MAppBar />
+            <div style={{ marginBottom: "40px" }} />
+            <DropZonePage />
+          </Route>
+          <Route path='/'>
             <MAppBar />
             <LandingPage />
           </Route>
