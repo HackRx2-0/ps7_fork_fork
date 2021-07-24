@@ -63,11 +63,8 @@ with enhanced quality.
 5. Create a PDF of resultant images
 
    - Create a PDF from multiple images and push it to AWS S3
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126856455-abfe807f-d39f-4e7d-92d4-ca8d9cb0a150.png)
 
-6. Preview of final Enhanced Document ✨
-   - Each image is enhanced automatically and a PDF is created
-   - ![image](#)
 
 ### Tools and Languages:
 
