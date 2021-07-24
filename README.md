@@ -83,7 +83,7 @@ with enhanced quality.
 
 ## Useful Links
 
-- [Flask API running Models in Collab](#)
+- [Flask API running Models in Collab](https://colab.research.google.com/drive/1dfm4i-KyhSQdnnar7ZdWRWAUG9TuRY8B?usp=sharing)
 
 ## Need help?
 
