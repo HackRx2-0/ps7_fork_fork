@@ -22,13 +22,10 @@ with enhanced quality.
 1. Landing Page and Upload button
 
    - Seamless landing page
-   - ![image](#)
-
-   - Explains the functionality of the application
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855957-5536b90b-7e70-46b5-97ea-d00d730e8213.png)
 
    - Upload button to enter the app
-   - ![image](https://user-images.githubusercontent.com/50591491/126855932-55ca45c5-98ca-4595-8190-e2dffedf39e0.png)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855952-b31a05eb-020c-4a6b-a1ed-973ba2780f35.png)
 
 2. Home page
 
