@@ -28,15 +28,15 @@ with enhanced quality.
    - ![image](#)
 
    - Upload button to enter the app
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855932-55ca45c5-98ca-4595-8190-e2dffedf39e0.png)
 
 2. Home page
 
    - Drag and drop your files
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855927-bf8aaf1b-75e2-4d0f-ae76-2bc61adc3c25.png)
 
    - The computer vision algorithm is implemented and a request to Flask API is sent.
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855931-b3bc5771-8d5c-4a27-9cbf-2090572536ba.png)
 
    - Perform border correction and Skew and Tilt using Hough Transform
    - ![vidback_out](https://user-images.githubusercontent.com/59837325/126844427-8dabc558-0ed4-4c4c-9ec7-8a80fea265cb.png)
