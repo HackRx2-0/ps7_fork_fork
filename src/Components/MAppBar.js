@@ -43,7 +43,7 @@ export default function ButtonAppBar(props) {
     }
     console.log(docDefinition);
     const pdfDocGenerator = pdfMake.createPdf(docDefinition);
-    pdfDocGenerator.getBase64(async (data) => {
+    await pdfDocGenerator.getBase64(async (data) => {
       const { result } = await post("/save", {
         pdf: data,
       });
