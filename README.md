@@ -44,24 +44,24 @@ with enhanced quality.
 3. Editor Page
 
    - The enhanced image can be seen on the editor page
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855676-297b3a97-89cb-463e-9ba0-9a48b0da84d1.png)
 
    - Slider based color and contrast correction
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855791-1c89beb3-efc9-4fb4-8e68-6509ffcae4b7.png)
 
    - Cropping and 360\* Rotation
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855723-82152cd5-9bc4-4163-9fa1-e9ca0a7b1b15.png)
 
    - Brightness modulation
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855691-49aeefea-34bc-4f90-b9ef-c989ed67bda3.png)
 
    - Undo Options & Text editor
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855811-6ad80495-6af4-493d-85fc-418402ca27b5.png)
 
 4. Select Multiple Files
 
    - Choose multiple files and automate the the process of file enhancement, manipulate each image individually
-   - ![image](#)
+   - ![image](https://user-images.githubusercontent.com/50591491/126855487-a7cba542-5f50-441e-b72a-68c0fedcf8c5.png)
 
 5. Create a PDF of resultant images
 
