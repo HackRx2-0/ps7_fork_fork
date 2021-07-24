@@ -36,7 +36,7 @@ with enhanced quality.
    - ![image](https://user-images.githubusercontent.com/50591491/126855931-b3bc5771-8d5c-4a27-9cbf-2090572536ba.png)
 
    - Perform border correction and Skew and Tilt using Hough Transform
-   - ![vidback_out](https://user-images.githubusercontent.com/59837325/126844427-8dabc558-0ed4-4c4c-9ec7-8a80fea265cb.png)
+   - ![demo](https://user-images.githubusercontent.com/59837325/126857051-439c5fb3-b0ce-4df1-ab0b-5c0635973555.png)
 
 3. Editor Page
 
