@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://bb88d6d0df55.ngrok.io/";
+axios.defaults.baseURL = "http://239372d6df54.ngrok.io/";
 
 export const post = async (url, data) => {
   try {

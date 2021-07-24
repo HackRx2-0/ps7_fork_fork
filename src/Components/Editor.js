@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import TuiImageEditor from "tui-image-editor";
 import D from "../Assets/D.png";
 import "tui-image-editor/dist/tui-image-editor.css";
@@ -148,8 +148,13 @@ class ImageEditor extends React.Component {
 
 export default function App() {
   const { state } = useContext(UIContext);
+  const [s, setS] = useState(state.selected);
+  useEffect(() => {
+    setS(state.selected);
+    return () => {};
+  }, [state.selected]);
 
-  const props = {
+  let props = {
     includeUI: {
       menu: [
         "crop",
@@ -166,37 +171,22 @@ export default function App() {
       theme: { ...myTheme },
       // theme: " whiteTheme",
       loadImage: {
-        path: state.image.decoded_img,
+        path: state.files[s]?.decoded_img,
         name: "abc",
       },
       uiSize: {
         width: "100vw",
-        height: "100vh",
+        height: "150vh",
       },
       menuBarPosition: "bottom",
     },
-    cssMaxWidth: 800,
-    cssMaxHeight: 720,
+    cssMaxWidth: 700,
+    cssMaxHeight: 700,
     selectionStyle: {
       cornerSize: 20,
       rotatingPointOffset: 70,
     },
   };
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // const headerImg = document.querySelector(
-      //   "div.tui-image-editor-header-logo > img",
-      // );
-      // headerImg.style.display = "none";
-
-      const loadBtn = document.querySelector("input.tui-image-editor-load-btn");
-      loadBtn.style.display = "none !important";
-    }, 0);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
 
   return (
     <div>

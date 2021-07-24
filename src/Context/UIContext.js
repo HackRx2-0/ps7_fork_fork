@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useReducer } from "react";
 // import { get } from "../APIs/Get";
-
+import load from "../Assets/load.png";
 export const UIContext = createContext(null);
 
 export const UIProvider = ({ children }) => {
@@ -14,13 +14,37 @@ export const UIProvider = ({ children }) => {
   //   token: false,
   //   user: {},
   // };
-  const initialState = { image: {}, loading: false };
+  const initialState = { image: {}, loading: false, files: {} };
   const reducer = (state, action) => {
     switch (action.type) {
       case "SET_IMAGE":
         return { ...state, image: action.payload };
       case "loading":
         return { ...state, loading: action.payload };
+      case "fileAdd":
+        return {
+          ...state,
+          files: {
+            ...state.files,
+            [action.payload.number]: { decoded_img: load },
+          },
+        };
+      case "fileRes":
+        return {
+          ...state,
+          files: {
+            ...state.files,
+            [action.payload.number]: {
+              decoded_img: action.payload.result.decoded_img,
+            },
+          },
+        };
+      case "index":
+        return {
+          ...state,
+          selected: action.payload,
+        };
+
       // case "snackbar":
       //   return { ...state, snackbar: action.payload };
       // case "loggedIn":

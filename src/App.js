@@ -14,7 +14,7 @@ function App() {
             <EditorPage />
           </Route>
           <Route path='/Uploads'>
-            <MAppBar />
+            <MAppBar save={true} />
             <div style={{ marginBottom: "40px" }} />
             <DropZonePage />
           </Route>

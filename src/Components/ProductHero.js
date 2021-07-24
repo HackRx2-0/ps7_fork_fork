@@ -38,6 +38,7 @@ function ProductHero(props) {
 
   const handleChange = async (e) => {
     const formData = new FormData();
+    console.log(e.target.files[0]);
     formData.append("file", e.target.files[0]);
     // console.log("sssss");
     dispatch({ type: "loading", payload: true });
@@ -55,45 +56,43 @@ function ProductHero(props) {
       <img
         style={{ display: "none" }}
         src={backgroundImage}
-        alt="increase priority"
+        alt='increase priority'
       />
-      <Typography color="inherit" align="center" variant="h2" marked="center">
+      <Typography color='inherit' align='center' variant='h2' marked='center'>
         Upgrade your Documents
       </Typography>
       <Typography
-        color="inherit"
-        align="center"
-        variant="h5"
-        className={classes.h5}
-      >
+        color='inherit'
+        align='center'
+        variant='h5'
+        className={classes.h5}>
         Enjoy Best in class ML & AI technology and transform your documents.
       </Typography>
 
       <input
-        accept="image/*"
+        accept='image/*'
         className={classes.input}
         style={{ display: "none" }}
-        id="1"
+        id='1'
         multiple
-        type="file"
+        type='file'
         onChange={(e) => {
           handleChange(e);
         }}
       />
-      <label htmlFor="1">
+      <label htmlFor='1'>
         <Button
-          component="span"
-          color="secondary"
-          variant="contained"
-          size="large"
+          component='span'
+          color='secondary'
+          variant='contained'
+          size='large'
           className={classes.button}
-          endIcon={<PublishIcon />}
-        >
+          endIcon={<PublishIcon />}>
           Upload Image
         </Button>
       </label>
 
-      <Typography variant="body2" color="inherit" className={classes.more}>
+      <Typography variant='body2' color='inherit' className={classes.more}>
         Experience the Magic
       </Typography>
     </ProductHeroLayout>
